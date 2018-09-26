@@ -1,6 +1,6 @@
 // Write your solution in this file!
 const driver = {}
 
-updateDriverWithKeyAndValue(driver, key, value) {
-  
+function updateDriverWithKeyAndValue(driver, key, value) {
+  const object2 = Object.assign({key : value}, driver);
 }
